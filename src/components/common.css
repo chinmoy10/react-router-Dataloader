@@ -1,0 +1,27 @@
+.text-color{
+    color: aquamarine;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 0px 1.5rem;
+    margin-top: 2rem;
+}
+
+.post{
+    background: white;
+    border: 5px solid sandybrown;
+    border-radius: 10px;
+    padding: 15px;
+    color: black;
+}
